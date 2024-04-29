@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.*;
 @Slf4j
 public class UserApiController {
 
-    /*@PostMapping("")
+    @PostMapping("")
     public void register(@RequestBody UserRequest userRequest){
         log.info("{}", userRequest);
-    }*/
+    }
 
    /* 디버깅 임시로 찍어보는 방법
     @PostMapping("")
